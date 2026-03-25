@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "takes in message.txt and auto splits post",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/rythrojaofficial/discordjs-message-splitter-bot#readme",
   "dependencies": {
     "discord.js": "^14.25.1",
-    "dotenv": "^17.3.1"
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
   }
 }
