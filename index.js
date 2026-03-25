@@ -1,5 +1,4 @@
 require('dotenv').config(); // Load the .env file
-const fs = require('fs'); // Import the File System module
 const { Client, Events, GatewayIntentBits } = require('discord.js');
 
 // Create a new client instance
