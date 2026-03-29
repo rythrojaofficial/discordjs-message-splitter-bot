@@ -10,7 +10,6 @@ import { runChunking } from './splitMarkdown.js';
 
 // load express app
 const app = express();
-client.login(process.env.dct)
 
 app.get("/", (req, res) => {
   res.send("Bot running");
@@ -64,6 +63,8 @@ client.on('messageCreate', async (message) => {
         }
     }
 });
+
+client.login(process.env.DISCORD_TOKEN)
 
 
 
